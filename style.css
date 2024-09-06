@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #4b0082, #491f70);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-content {
+    display: flex;
+    background: linear-gradient(180deg, #3d0069, #7748a2);
+    border-radius: 20px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+}
+
+.login-box {
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.user-icon {
+    font-size: 4em;
+    color: #00bfff;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    font-size: 1em;
+}
+
+.input-group input::placeholder {
+    color: #ccc;
+}
+
+.login-button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background: #ff007f;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+}
+
+.login-button:hover {
+    background: #ff4c9b;
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.options p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.options a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.gradient-divider {
+    width: 10px;
+    background: linear-gradient(180deg, #4b0082, #8a2be2);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.welcome-box {
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.welcome-box h2 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.welcome-box p {
+    font-size: 1.1em;
+    color: #ccc;
+    margin-bottom: 40px;
+}
+
+.colorful-stripes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.colorful-stripes .stripe {
+    width: 80%;
+    height: 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #4b0082, #00bfff, #ff007f);
+}
